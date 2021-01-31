@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28701.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBlueZ", "src\DotNetBlueZ.csproj", "{E6CB9EB2-1E3D-4967-ADAE-94D54E244E4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBlueZTest1", "manualTests\DotNetBlueZTest1\DotNetBlueZTest1.csproj", "{9E4AC0D4-C59F-49E1-9E1A-6526EA8334A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{4C4FC7B0-522D-45C2-8746-722D5EC2CD32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "printDeviceInfo", "samples\printDeviceInfo\printDeviceInfo.csproj", "{E3A6404A-879C-4E70-A505-840FFFDA3378}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scan", "samples\scan\scan.csproj", "{5DDC1111-77AD-44F0-A3EA-969CC5B27C0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "subscribeToCharacteristic", "samples\subscribeToCharacteristic\subscribeToCharacteristic.csproj", "{91A078F6-6B06-437B-B3C2-CE0C85F65086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6CB9EB2-1E3D-4967-ADAE-94D54E244E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CB9EB2-1E3D-4967-ADAE-94D54E244E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CB9EB2-1E3D-4967-ADAE-94D54E244E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CB9EB2-1E3D-4967-ADAE-94D54E244E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4AC0D4-C59F-49E1-9E1A-6526EA8334A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4AC0D4-C59F-49E1-9E1A-6526EA8334A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4AC0D4-C59F-49E1-9E1A-6526EA8334A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4AC0D4-C59F-49E1-9E1A-6526EA8334A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A6404A-879C-4E70-A505-840FFFDA3378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A6404A-879C-4E70-A505-840FFFDA3378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A6404A-879C-4E70-A505-840FFFDA3378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A6404A-879C-4E70-A505-840FFFDA3378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDC1111-77AD-44F0-A3EA-969CC5B27C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDC1111-77AD-44F0-A3EA-969CC5B27C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDC1111-77AD-44F0-A3EA-969CC5B27C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDC1111-77AD-44F0-A3EA-969CC5B27C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A078F6-6B06-437B-B3C2-CE0C85F65086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A078F6-6B06-437B-B3C2-CE0C85F65086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A078F6-6B06-437B-B3C2-CE0C85F65086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A078F6-6B06-437B-B3C2-CE0C85F65086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3A6404A-879C-4E70-A505-840FFFDA3378} = {4C4FC7B0-522D-45C2-8746-722D5EC2CD32}
+		{5DDC1111-77AD-44F0-A3EA-969CC5B27C0B} = {4C4FC7B0-522D-45C2-8746-722D5EC2CD32}
+		{91A078F6-6B06-437B-B3C2-CE0C85F65086} = {4C4FC7B0-522D-45C2-8746-722D5EC2CD32}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3B780EB-F6D6-48E5-BD9C-32A43BF46AFB}
+	EndGlobalSection
+EndGlobal
